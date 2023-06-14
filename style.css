@@ -1,0 +1,445 @@
+#logo {
+  width: 10%;
+  top: 0;
+  left: 0;
+  display: block;
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+  animation-name: kuk;
+  animation-duration: 3s;
+}
+@keyframes kuk {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: 70%;
+    top: 0px;
+  }
+  100% {
+    left: 0%;
+    top: 0px;
+  }
+}
+.skeng {
+  width: 15%;
+}
+.contentbox {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+html {
+  background: white;
+}
+body {
+  margin: 0;
+}
+footer {
+  border-top: black solid 3px;
+  background: rgb(207, 206, 206);
+  color: rgb(97, 97, 97);
+  padding: 1em;
+}
+nav {
+  margin: 0;
+  background-color: black;
+}
+nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  transition: color 0.7s;
+}
+nav ul li a:hover {
+  color: white;
+}
+nav ul li a.active {
+  color: white;
+  border-bottom: red 2px solid;
+}
+hr.domov,
+hr.doporucenep,
+hr.ceny,
+hr.recenzie,
+hr.porovnanief {
+  border: 1px solid black;
+}
+h1.domov {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+video.domov {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+}
+
+article.specifikacie:nth-of-type(1) {
+  margin-top: 5%;
+  margin-left: 20%;
+  float: left;
+  width: calc(100% / 3);
+}
+
+img.specifikacie:nth-of-type(1) {
+  display: block;
+  width: 40%;
+  margin-bottom: 10px;
+}
+img.specifikacie:nth-of-type(2) {
+  display: block;
+  width: 40%;
+}
+
+article.specifikacie:nth-of-type(2) {
+  width: auto;
+  text-transform: uppercase;
+  line-height: 2;
+}
+h3.specifikacie {
+  padding-top: 10%;
+  font-size: 32px;
+}
+p.specifikacie:nth-of-type(1),
+p.specifikacie:nth-of-type(2) {
+  font-size: 25px;
+}
+p.specifikacie:nth-of-type(4) {
+  padding-top: 20px;
+}
+div.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+div.circle:nth-of-type(1) {
+  background-color: #000000;
+}
+div.circle:nth-of-type(2) {
+  background-color: #ffff;
+}
+div.circle:nth-of-type(3) {
+  background-color: #fedd82;
+}
+div.circle:nth-of-type(4) {
+  background-color: #9d84c8;
+}
+div.circle:nth-of-type(5) {
+  background-color: #b6ddcb;
+}
+div.circle:nth-of-type(6) {
+  background-color: #c1303d;
+}
+article.specifikacie:nth-of-type(3) {
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+}
+h4.specifikacie {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+article.porovnaniem {
+  display: flex;
+}
+div.porovnaniem:nth-child(1) {
+  margin-left: 40%;
+}
+div.porovnaniem:nth-child(2) {
+  margin: auto;
+}
+img.porovnaniem:nth-of-type(1) {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0% 200px;
+}
+img.porovnaniem:nth-of-type(2) {
+  width: auto;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0% 200px;
+}
+table.porovnaniem tr:nth-child(even),
+table.porovnaniem1 tr:nth-child(even) {
+  background-color: #ffffff;
+}
+table.porovnaniem tr:nth-child(odd),
+table.porovnaniem1 tr:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+table.porovnaniem tr.porovnaniem {
+  font-size: 32px;
+  height: 60px;
+}
+table.porovnaniem1 {
+  margin-top: 0;
+  width: 1400px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+  table-layout: fixed;
+  font-size: 25px;
+}
+table.porovnaniem {
+  margin-top: 100px;
+  width: 1400px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+  table-layout: fixed;
+  font-size: 25px;
+}
+table.porovnaniem:first-child {
+  margin-top: 0;
+}
+article.contentbox h1 {
+  margin-top: 100px;
+}
+article.contentbox video {
+  margin-top: 20px;
+  width: 20%;
+  height: auto;
+}
+article.doporucenep,
+article.ceny {
+  margin-left: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  line-height: 2;
+}
+section.doporucenep,
+section.ceny {
+  width: 50%;
+}
+img.doporucenep,
+img.ceny {
+  width: 20%;
+  height: auto;
+}
+h3.doporucenep {
+  font-size: 25px;
+  font-weight: bold;
+}
+article.porovnanief {
+  margin: 20px;
+  display: inline-flex;
+}
+article.porovnanief section:first-child() {
+  float: left;
+  width: 20%;
+  height: auto;
+}
+article.porovnanief section:last-child() {
+  float: right;
+  width: 20%;
+  height: auto;
+}
+article.porovnanief img {
+  width: 99%;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .contentbox {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+  }
+  #logo {
+    width: 20%;
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    animation-name: kuk;
+    animation-duration: 3s;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.7s;
+  }
+  h1.domov {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+  }
+  article.specifikacie:nth-of-type(1) {
+    margin-top: 5%;
+    margin-left: 20%;
+    float: left;
+    width: calc(100% / 3);
+  }
+  img.doporucenep,
+  img.ceny {
+    width: 40%;
+    height: auto;
+  }
+  div.porovnaniem:nth-child(1) {
+    margin-left: 10%;
+  }
+  div.porovnaniem:nth-child(2) {
+    margin: auto;
+  }
+  img.porovnaniem:nth-of-type(1) {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 200px;
+  }
+  img.porovnaniem:nth-of-type(2) {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 200px;
+  }
+  table.porovnaniem tr.porovnaniem {
+    font-size: 32px;
+    height: 40px;
+  }
+  table.porovnaniem1 {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    table-layout: fixed;
+    font-size: 20px;
+  }
+  table.porovnaniem {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    table-layout: fixed;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contentbox {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  #logo {
+    width: 20%;
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    animation-name: none;
+  }
+
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    transition: color 0.7s;
+  }
+  h1.domov {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+  }
+  article.specifikacie:nth-of-type(1) {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 100%;
+  }
+  img.doporucenep,
+  img.ceny {
+    width: 50%;
+    height: auto;
+  }
+  table.porovnaniem tr.porovnaniem {
+    font-size: 20px;
+    height: 60px;
+  }
+  table.porovnaniem1 {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    table-layout: fixed;
+    font-size: 15px;
+  }
+  table.porovnaniem {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    table-layout: fixed;
+    font-size: 15px;
+  }
+  article.porovnanief {
+    margin: 0px;
+    display: inline-block;
+  }
+  article.porovnanief section:first-child() {
+    float: left;
+    width: 20%;
+    height: auto;
+  }
+  article.porovnanief section:last-child() {
+    float: left;
+    width: 20%;
+    height: auto;
+  }
+  article.specifikacie:nth-of-type(3) {
+    display: block;
+    width: 95%;
+    line-height: 2;
+  }
+  article.specifikacie:nth-of-type(2) {
+    width: 95%;
+    text-transform: uppercase;
+    line-height: 2;
+  }
+  div.porovnaniem:nth-child(1) {
+    margin-left: 0%;
+  }
+}
